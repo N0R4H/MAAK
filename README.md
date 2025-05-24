@@ -1,30 +1,126 @@
-# AI-powered Aid Tracker
+# معاك (Ma'ak) - AI-Powered Emergency Aid Tracker
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+> **"With You" — Because no one should face disaster alone**
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/norahs-projects-5aee779a/v0-ai-powered-aid-tracker)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/lU9p1SbQurV)
+---
 
-## Overview
+## 🚨 The Crisis We're Solving
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+During the devastating 2023 Morocco earthquake, **thousands of families in remote Atlas Mountain villages were never located and never received aid**. They had:
 
-## Deployment
+- ❌ No digital footprint or formal addresses  
+- ❌ No internet or phone connectivity to call for help  
+- ❌ No way for aid organizations to find them  
 
-Your project is live at:
+While some areas received multiple deliveries, **entire communities were completely forgotten**.
 
-**[https://vercel.com/norahs-projects-5aee779a/v0-ai-powered-aid-tracker](https://vercel.com/norahs-projects-5aee779a/v0-ai-powered-aid-tracker)**
+---
 
-## Build your app
+## 💡 Our Solution: معاك
 
-Continue building your app on:
+**معاك** (pronounced *Ma'ak*, meaning *with you* in Arabic) is an AI-powered emergency aid platform ensuring **every affected family** is located, tagged, and supported—especially the unreachable and undocumented.
 
-**[https://v0.dev/chat/projects/lU9p1SbQurV](https://v0.dev/chat/projects/lU9p1SbQurV)**
+> *"In humanity's darkest hours, no one is left behind, forgotten, or invisible."*
 
-## How It Works
+---
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## 🏗️ System Architecture
+
+### 🔍 1. SOS Detector  
+**AI-powered social media distress signal monitor**
+
+- Multi-platform scanning: WhatsApp, Facebook, Twitter/X  
+- Multi-language detection: Darija, Modern Standard Arabic (MSA), French  
+- Image analysis: Damage and urgency classification  
+- Geolocation inference from metadata or text clues  
+- Real-time alerts to aid teams
+
+---
+
+### 📍 2. Victim Locator & Aid Tracker  
+**Mobile app for field teams and volunteers**
+
+- QR code tagging per household  
+- Family profiling: size, needs, vulnerabilities  
+- Status updates: waiting, received, missing  
+- AI gap detection: missed zones or duplicate entries  
+- Priority scoring: elderly, medical needs, children
+
+---
+
+### 🚛 3. Fair Aid Distribution Planner  
+**Dashboard for equitable and transparent resource planning**
+
+- Route optimization for aid delivery  
+- Duplicate prevention  
+- Public transparency layer  
+- AI-powered resource allocation  
+- Live updates and field coordination
+
+---
+
+## 🛠️ Technology Stack
+
+### Frontend
+- **Next.js 15** (App Router)  
+- **TypeScript**  
+- **Tailwind CSS**  
+- **shadcn/ui**
+
+### AI & Machine Learning
+- **NLP for Darija/MSA/French**  
+- **Computer Vision** for image-based damage detection  
+- **Geospatial AI** for location estimation  
+- **Optimization algorithms** for route planning
+
+### Real-time Tech
+- **WebSockets** for live sync  
+- **Offline-first PWA** for mobile field use  
+- **Instant notifications** for critical events
+
+---
+
+## 🚀 Key Features
+
+### 🔴 Real-Time Emergency Detection
+- Detects distress posts in Moroccan dialects  
+- Extracts metadata from images/videos  
+- Issues instant alerts for coordination  
+
+### 📱 Mobile Field Application
+- Works offline in remote areas  
+- QR household tagging + image evidence  
+- Syncs once connectivity is restored  
+
+### 🗺️ Interactive Emergency Map
+- Visualizes SOS signals & family status  
+- Maps uncovered regions  
+- Tracks aid vehicles and ETAs  
+
+### 📊 Command Center Dashboard
+- Field metrics and analytics  
+- Smart coverage & resource gap detection  
+- Multi-team coordination tools  
+
+---
+
+## 🎯 Impact & Innovation
+
+### Measurable Outcomes
+- 100% coverage — no family left behind  
+- Zero duplication — fair and efficient delivery  
+- Live tracking — instant verification  
+- Transparent aid map — for public accountability  
+
+### Technical Innovation
+- Moroccan dialect AI  
+- Offline-first mobile experience  
+- Real-time geospatial intelligence  
+- Equity-focused optimization models  
+
+### Social Value
+- Arabic-first design  
+- Inclusive tech for marginalized communities  
+- Built to scale globally for any disaster zone
+
+
