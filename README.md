@@ -62,22 +62,17 @@ While some areas received multiple deliveries, **entire communities were complet
 ## 🛠️ Technology Stack
 
 ### Frontend
-- **Next.js 15** (App Router)  
+- **Next.js 15** 
 - **TypeScript**  
 - **Tailwind CSS**  
 - **shadcn/ui**
 
 ### AI & Machine Learning
-- **NLP for Darija/MSA/French**  
-- **Computer Vision** for image-based damage detection  
-- **Geospatial AI** for location estimation  
-- **Optimization algorithms** for route planning
-
-### Real-time Tech
-- **WebSockets** for live sync  
-- **Offline-first PWA** for mobile field use  
-- **Instant notifications** for critical events
-
+- **NLP for Darija**  
+- **Computer Vision** for image-based damage detection  (work in progress)
+- **Geospatial AI** for location estimation  (work in progress)
+- **Optimization algorithms** for route planning  (work in progress)
+  
 ---
 
 ## 🚀 Key Features
@@ -118,8 +113,7 @@ While some areas received multiple deliveries, **entire communities were complet
 - Real-time geospatial intelligence  
 - Equity-focused optimization models  
 
-### Social Value
-- Arabic-first design  
+### Social Value 
 - Inclusive tech for marginalized communities  
 - Built to scale globally for any disaster zone
 
